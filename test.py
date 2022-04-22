@@ -4,7 +4,7 @@ from time import sleep
 from concurrent.futures import ThreadPoolExecutor
 
 collection = list()
-webhook_url = "https://discord.com/api/webhooks/966732147551518742/xiodqodtC_DwW_QMf3ej71UgIixeEWYVC44XsqXpQgcid1bRvuQRwYjeMkT0cRm4SWF3"
+webhook_url = "https://discord.com/api/webhooks/966881365209518081/JXb30LtxXdbmVe6s3t18UOkNaEt07ecci4pf3iLxtujeSm4bAa6e74FDw24l3iqxa4_I"
 source = html.fromstring(get("https://kingofhup.com/หมวดหมู่/คลิปไทย").content)
 max = int(source.xpath("//a[@class='page-link']/text()")[-2])
 
